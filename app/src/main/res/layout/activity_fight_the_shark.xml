@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up899244.FightTheShark"
+    android:background="@drawable/clearwater">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="You manage to punch the shark in the nose and you save yourself enough time to get away."
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:background="#9FFFFFFF"
+        android:layout_width="425dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="84dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="41dp"
+        android:background="#F2F3F4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Next"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

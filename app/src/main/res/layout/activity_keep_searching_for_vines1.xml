@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up899244.KeepSearchingForVines1"
+    android:background="@drawable/sharks">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="223dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="254dp"
+        android:background="#9FFFFFFF"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Will you try to take it? "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:background="#9FFFFFFF"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="You notice that there is seaweed near the shore that you can use  either for food or for the making of the shelter. You caught a glimpse of something that looked like a shark's fin. "
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="77dp"
+        android:background="#9FFFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Yes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="137dp"
+        android:background="#9FFFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="No"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

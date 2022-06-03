@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cargo"
+    android:background="@drawable/island_beach">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="425dp"
+        android:layout_height="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="The container seems to be locked with a rope and you would need a knife to open it."
+        android:textColor="#000000"
+        android:layout_marginTop="84dp"
+        android:textSize="20sp"
+        android:background="#9FFFFFFF"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="223dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="#9FFFFFFF"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="You:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="136dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Look for food/water."
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#9FFFFFFF"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="201dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Look for materials to craft a knife."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#9FFFFFFF"/>
+
+</RelativeLayout>

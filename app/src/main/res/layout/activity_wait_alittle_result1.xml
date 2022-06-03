@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up899244.WaitALittleResult1"
+    android:background="@drawable/fruit">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="You feel your skin burning and throw the fruit away."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#9FFFFFFF"
+        android:layout_width="425dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="84dp"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="211dp"
+        android:background="#9FFFFFFF"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Keep looking for food?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="302dp"
+        android:background="#9FFFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Yes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="165dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="370dp"
+        android:background="#9FFFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="No - make a campfire"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

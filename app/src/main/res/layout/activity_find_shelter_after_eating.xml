@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up899244.FindShelterAfterEating"
+    android:background="@drawable/treeforsleeping">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="You couldn't find any suitable place to sleep so you climbed on a tree."
+        android:textSize="20sp"
+        android:background="#9FFFFFFF"
+        android:layout_width="425dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="84dp"/>
+
+</RelativeLayout>

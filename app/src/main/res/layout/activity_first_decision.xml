@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstDecision1"
+    android:background="@drawable/beach3">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="67dp"
+        android:background="#F2F3F4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Look for food/water"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="129dp"
+        android:background="#F2F3F4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Make shelter."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="189dp"
+        android:background="#F2F3F4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Try opening the cargo."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="What is the first thing you would do?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#9FFFFFFF"
+        android:layout_width="425dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="84dp"/>
+
+
+</RelativeLayout>

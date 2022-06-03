@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up899244.FindShelterResult"
+    android:background="@drawable/cave2">
+
+    <TextView
+    android:id="@+id/text1"
+    android:layout_width="223dp"
+    android:layout_height="52dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="340dp"
+    android:background="#F2F3F4"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:text="Look for water?"
+    android:textColor="#000000"
+    android:textSize="20sp" />
+
+    <TextView
+    android:id="@+id/text"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:text="You found a cave which looks empty but you are not feeling well and you need water."
+    android:textColor="#000000"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:textSize="20sp"
+    android:background="#9FFFFFFF"
+    android:layout_width="425dp"
+    android:layout_height="115dp"
+    android:layout_marginTop="84dp"/>
+
+
+    <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="136dp"
+    android:background="#F2F3F4"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:text="Yes"
+    android:layout_centerInParent="true"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="201dp"
+        android:background="#F2F3F4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="No"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
